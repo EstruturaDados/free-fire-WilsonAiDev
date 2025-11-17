@@ -1,0 +1,41 @@
+# .gitignore padrão para projetos C
+# Ignora arquivos de compilação, temporários e IDEs comuns
+
+# Objetos e binários
+*.o
+*.obj
+*.lo
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+core
+*.core
+
+# Executáveis específicos solicitados
+FreeFire-aventureiro
+FreeFire-novato
+FreeFire-aventureiro-mestre
+
+# Diretórios de build e dependências
+/build/
+/bin/
+/obj/
+
+# Arquivos de configuração do editor/IDE
+.vscode/
+*.swp
+*~
+# macOS
+.DS_Store
+
+# Tags e caches
+tags
+ctags
+.cache
+
+# Arquivos gerados por ferramentas de compilação
+compile_commands.json
